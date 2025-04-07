@@ -1,4 +1,3 @@
-import wikipedia
 from mylib.bot import scrape
 import click
 
