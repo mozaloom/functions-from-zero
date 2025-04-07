@@ -8,4 +8,4 @@ for key, value in my_dict.items():
     print(f"My favorite thing to drink is: {value}")
 
 
-#my_list = my_list
+# my_list = my_list
