@@ -2,3 +2,5 @@ pylint
 pytest
 pytest-cov
 black
+wikipedia
+ipython
