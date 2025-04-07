@@ -6,3 +6,6 @@ wikipedia
 ipython
 click
 fire
+fastapi
+uvicorn
+pydantic
