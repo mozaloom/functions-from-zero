@@ -64,3 +64,22 @@ def find_distance(city1_name, city2_name):
     else:
         return None
 
+def list_cities():
+    """
+    List all available cities.
+    """
+    city_names = [city["name"] for city in cities]
+    return city_names
+
+
+
+def travel_time(city1_name, city2_name, speed=60):
+    """
+    Calculate the travel time between two cities given a speed.
+    """
+    distance = find_distance(city1_name, city2_name)
+    if distance is not None:
+        return distance / speed
+    else:
+        return None
+
