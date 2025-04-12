@@ -11,3 +11,4 @@ uvicorn
 pydantic
 geopy
 httpx
+git+https://github.com/LIAAD/yake
