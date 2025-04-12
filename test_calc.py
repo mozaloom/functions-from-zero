@@ -1,5 +1,5 @@
 from mylib.calc import addition, subtract, multiply, divide, power
-from calccli import cli
+from calcCli import cli
 import click
 
 
@@ -25,7 +25,6 @@ def test_division():
 
 def test_power():
     assert power(2, 3) == 8
-
 
 
 # writ e a test for the cli command

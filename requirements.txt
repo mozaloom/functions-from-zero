@@ -9,3 +9,4 @@ fire
 fastapi
 uvicorn
 pydantic
+geopy
